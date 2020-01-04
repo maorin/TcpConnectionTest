@@ -22,7 +22,7 @@ var clientSum int32
 
 func main() {
 
-	serverAddr := flag.String("serverAddr", "127.0.0.1:8009", "serverAddr")
+	serverAddr := flag.String("serverAddr", "127.0.0.1:22220", "serverAddr")
 	localAddr := flag.String("localAddr", "127.0.0.1", "localAddr")
 	total:=flag.Int("total",2,"conn total")
 
